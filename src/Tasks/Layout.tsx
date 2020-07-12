@@ -2,7 +2,7 @@ import React from 'react';
 
 const Layout = ({ state, title, description, challenge, children }) => {
   return (
-    <div className="my-10">
+    <div className="mt-10 mb-20">
       <h2 className="text-2xl font-bold">{title}</h2>
       <p className="my-4 italic">{challenge}</p>
       <p

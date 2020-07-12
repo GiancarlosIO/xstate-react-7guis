@@ -3,6 +3,7 @@ import React from 'react';
 import Counter from './Tasks/Counter';
 import TemperatureConverter from './Tasks/TemperatureConverter';
 import FlightBooker from './Tasks/FlightBooker';
+import Timer from './Tasks/Timer';
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
         <Counter />
         <TemperatureConverter />
         <FlightBooker />
+        <Timer />
       </div>
     </div>
   );
