@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Counter from './Tasks/Counter';
+import TemperatureConverter from './Tasks/TemperatureConverter';
 
 const App = props => {
   return (
@@ -29,9 +30,8 @@ const App = props => {
       </p>
 
       <div className="mt-5">
-        <div className="my-10">
-          <Counter />
-        </div>
+        <Counter />
+        <TemperatureConverter />
       </div>
     </div>
   );
