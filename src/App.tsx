@@ -2,6 +2,7 @@ import React from 'react';
 
 import Counter from './Tasks/Counter';
 import TemperatureConverter from './Tasks/TemperatureConverter';
+import FlightBooker from './Tasks/FlightBooker';
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
       <div className="mt-5">
         <Counter />
         <TemperatureConverter />
+        <FlightBooker />
       </div>
     </div>
   );
