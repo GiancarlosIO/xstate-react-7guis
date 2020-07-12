@@ -3,7 +3,7 @@ import React from 'react';
 import Counter from './Tasks/Counter';
 import TemperatureConverter from './Tasks/TemperatureConverter';
 
-const App = props => {
+const App = () => {
   return (
     <div className="max-w-screen-md mx-auto mt-10">
       <h1 className="font-bold text-3xl">

@@ -37,8 +37,8 @@ const temperatureMachine = Machine<
 >(
   {
     context: {
-      celsius: undefined,
-      fahrenheit: undefined,
+      celsius: '',
+      fahrenheit: '',
     },
     initial: 'active',
     states: {
